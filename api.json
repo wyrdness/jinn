@@ -1,148 +1,95 @@
 {
-  "category": "ENTITY_SPIRIT",
-
   "meta": {
     "version": "1.0.0",
     "schema_version": "1.0.0",
-    "last_updated": "2025-12-15",
+    "last_updated": "2026-02-13",
     "repository": "https://github.com/wyrdness/jinn",
-    "maintainers": [{"name": "Wyrdness Team", "github": "wyrdness", "role": "maintainer"}],
-    "license": {"data": "CC0-1.0", "content": "CC-BY-4.0"}
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
   },
   "phenomenon": {
     "id": "jinn",
     "name": "Jinn",
-    "aliases": [
-      {"name": "Djinn", "language": "Anglicized Arabic", "meaning": "Alternative romanization"},
-      {"name": "Genie", "language": "English (via French)", "meaning": "Western adaptation, often distorted"},
-      {"name": "Jinni", "language": "Arabic (singular)", "meaning": "One jinn"},
-      {"name": "الجن", "language": "Arabic", "meaning": "Original Arabic script"}
-    ],
+    "aliases": [],
     "category": "ENTITY_SPIRIT",
-    "subcategory": "Islamic/Arabian Supernatural Beings",
-    "tags": ["islamic", "arabian", "supernatural", "spirit", "middle-east", "fire", "shapeshifter", "invisible", "quranic"],
-    "status": "active",
+    "subcategory": "| Description | Power Level |",
+    "tags": [
+      "folklore",
+      "mythology"
+    ],
+    "status": "documented",
     "description": {
-      "summary": "Supernatural beings in pre-Islamic Arabian and Islamic tradition, created from smokeless fire. Unlike angels or demons, jinn possess free will and can be good, evil, or neutral. They are invisible to humans but can interact with the physical world.",
-      "full": "Jinn (Arabic: جن) are supernatural creatures in pre-Islamic Arabian religious traditions and Islamic theology. According to Islamic belief, God created three sapient beings: angels from light, humans from clay, and jinn from smokeless fire (or 'scorching fire'). Unlike angels who are bound to obey God, jinn possess free will and can choose between good and evil. They live in a parallel world invisible to humans, can take various forms, and have their own societies, religions, and hierarchies. The Quran contains an entire chapter (Surah Al-Jinn) dedicated to them. Belief in jinn remains strong across the Muslim world, with encounters and possessions still reported."
+      "summary": "Jinn (Arabic: جن, also romanized as Djinn) are supernatural beings in pre-Islamic Arabian religious traditions and Islamic theology.",
+      "full": "Jinn (Arabic: جن, also romanized as Djinn) are supernatural beings in pre-Islamic Arabian religious traditions and Islamic theology. According to Islamic belief, God created three sapient beings: Unlike angels who are bound to obey God, jinn possess free will and can choose between good and evil. They live in a parallel world normally invisible to humans, can take various forms, and have their own societies, religions, and hierarchies. The Quran contains an entire chapter dedicated to them (Surah Al-Jinn, Chapter 72), and belief in jinn remains strong across the Muslim world today."
     },
     "etymology": {
-      "origin": "From Arabic root j-n-n meaning 'to hide' or 'to conceal'",
-      "meaning": "Hidden ones; those concealed from sight",
-      "first_use": "Pre-Islamic Arabia; systematized in Quran (7th century CE)"
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
     }
   },
   "classification": {
     "taxonomy": {
       "category": "ENTITY_SPIRIT",
-      "type": "Supernatural Being",
-      "subtype": "Islamic Tradition",
-      "variant": "Multiple types (Ifrit, Marid, etc.)"
+      "type": "| Description | Power Level |",
+      "subtype": "Unknown",
+      "variant": "Unknown"
     },
-    "related_phenomena": [
-      {"id": "demons", "name": "Demons", "relationship": "related", "description": "Western demonic entities; Shaitan jinn are similar"},
-      {"id": "fairies", "name": "Fairies", "relationship": "similar", "description": "European invisible beings with parallel societies"},
-      {"id": "ghosts", "name": "Ghosts", "relationship": "related", "description": "Some jinn confused with ghost phenomena"}
-    ]
+    "related_phenomena": []
   },
   "characteristics": {
     "physical": {
-      "coloration": ["varies by type", "often dark", "can appear as any color"],
-      "features": [
-        {"feature": "Invisibility", "description": "Normally invisible to humans; can choose to reveal themselves", "frequency": "always"},
-        {"feature": "Shapeshifting", "description": "Can assume human, animal, or monstrous forms", "frequency": "always"},
-        {"feature": "Smokeless fire origin", "description": "Created from smokeless/scorching fire", "frequency": "always"},
-        {"feature": "Variable appearance", "description": "When visible, appearance depends on type and intention", "frequency": "common"}
-      ],
-      "morphology": "True form is invisible/unknown. Can manifest in any form. Common manifestations include: human form (often unusually beautiful or ugly), animal forms (snakes, dogs, cats, scorpions are common), or monstrous/hybrid forms for malevolent jinn."
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
     },
-    "abilities": [
-      {"ability": "Invisibility", "description": "Can remain unseen by humans at will", "frequency": "always", "evidence_level": "religious tradition"},
-      {"ability": "Shapeshifting", "description": "Can transform into humans, animals, or other forms", "frequency": "always", "evidence_level": "religious tradition"},
-      {"ability": "Possession", "description": "Can possess humans (particularly malevolent jinn)", "frequency": "occasional", "evidence_level": "reported"},
-      {"ability": "Flight", "description": "Can travel great distances rapidly", "frequency": "common", "evidence_level": "religious tradition"},
-      {"ability": "Superhuman strength", "description": "Physically powerful, especially Ifrit and Marid", "frequency": "common", "evidence_level": "religious tradition"},
-      {"ability": "Longevity", "description": "Live much longer than humans; some ancient", "frequency": "always", "evidence_level": "religious tradition"},
-      {"ability": "Magic", "description": "Can perform supernatural feats", "frequency": "common", "evidence_level": "religious tradition"}
-    ],
+    "abilities": [],
     "behavior": {
-      "activity_period": "variable",
-      "disposition": "variable",
-      "social_structure": "complex society (tribes, kingdoms, families)",
-      "habitat_preference": ["deserts", "ruins", "abandoned places", "bathrooms", "dirty places", "markets", "crossroads"],
-      "patterns": ["Can be Muslim or non-Muslim", "Have families and societies", "Some serve humans (rarely)", "Can fall in love with humans", "May seek revenge if wronged"]
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
     }
   },
   "distribution": {
     "range": {
-      "description": "Believed to exist worldwide in a parallel dimension. Cultural belief strongest in Islamic world and Middle East.",
-      "continents": ["Asia", "Africa", "Europe", "Worldwide"],
-      "countries": ["Saudi Arabia", "Egypt", "Morocco", "Pakistan", "Indonesia", "All Muslim-majority countries"],
-      "regions": ["Middle East", "North Africa", "South Asia", "Southeast Asia"]
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
     },
-    "hotspots": [
-      {
-        "name": "Arabian Desert",
-        "location": {"description": "Arabian Peninsula deserts", "region": "Middle East"},
-        "notes": "Traditional homeland in Arabian folklore"
-      },
-      {
-        "name": "Ancient ruins",
-        "location": {"description": "Archaeological sites across Middle East", "region": "Various"},
-        "notes": "Jinn believed to inhabit abandoned places"
-      }
-    ],
+    "hotspots": [],
     "temporal": {
-      "first_recorded": {"date": "Pre-Islamic era", "circa": true, "source": "Arabian oral tradition"},
-      "peak_activity_periods": [
-        {"period": "Pre-Islamic Arabia", "description": "Central to Arabian religion before Islam"},
-        {"period": "7th century CE - present", "description": "Systematized in Islamic theology"}
-      ]
+      "first_recorded": {
+        "date": "Unknown",
+        "circa": true,
+        "source": "Traditional folklore"
+      }
     }
   },
   "history": {
     "origins": {
-      "cultural_roots": "Pre-Islamic Arabian polytheism featured jinn as desert spirits. Islam incorporated and systematized jinn belief.",
-      "earliest_accounts": "Pre-Islamic Arabian poetry and traditions mention jinn. Quran (7th century) provides definitive Islamic account.",
-      "folklore_connections": "May share roots with other Semitic spirit traditions; influenced later European genie concept."
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
     },
-    "timeline": [
-      {"date": "Pre-600 CE", "event": "Pre-Islamic jinn traditions", "significance": "Arabs worshipped jinn alongside other deities"},
-      {"date": "610-632 CE", "event": "Quranic revelation", "significance": "Jinn incorporated into Islamic theology; Surah Al-Jinn revealed"},
-      {"date": "700s-1000s", "event": "Hadith compilation", "significance": "Prophetic traditions about jinn collected"},
-      {"date": "1704-1717", "event": "One Thousand and One Nights translated", "significance": "Western 'genie' concept emerges from distorted jinn stories"},
-      {"date": "Present", "event": "Ongoing belief", "significance": "Jinn belief remains strong across Muslim world"}
-    ],
-    "modern_era": "Belief in jinn remains widespread in Muslim communities worldwide. Jinn possession and ruqyah (Islamic exorcism) are still practiced. Modern jinn encounters continue to be reported across the Muslim world."
+    "timeline": []
   },
   "sightings": {
     "statistics": {
-      "total_documented": 1000,
+      "total_documented": 0,
       "verified": 0,
-      "disputed": 900,
-      "debunked": 50,
-      "date_range": {"earliest": "Pre-Islamic", "latest": "Present"}
+      "disputed": 0,
+      "debunked": 0
     },
-    "notable": [
-      {
-        "id": "jinn-account-solomon",
-        "name": "Prophet Solomon and the Jinn",
-        "date": {"value": "950 BCE", "precision": "approximate"},
-        "location": {"description": "Jerusalem/Holy Land", "region": "Middle East"},
-        "description": "According to Islamic tradition, Prophet Solomon (Sulaiman) was given power over jinn by God. He commanded them to build structures and dive for treasures. The Quran describes jinn working for Solomon. This is the most significant jinn account in Islamic tradition.",
-        "credibility": {"rating": "unverified", "factors": ["Religious text", "Theological significance"], "notes": "Foundational Islamic account; matter of faith"},
-        "featured": true
-      },
-      {
-        "id": "jinn-account-cave",
-        "name": "Jinn of Nasibin",
-        "date": {"value": "Unknown", "precision": "approximate"},
-        "location": {"description": "Nasibin (Nusaybin)", "region": "Turkey/Syria border"},
-        "description": "Hadith literature mentions that a delegation of jinn from Nasibin came to hear the Prophet Muhammad recite the Quran. This event is referenced in Surah Al-Jinn.",
-        "credibility": {"rating": "unverified", "factors": ["Hadith literature", "Quranic reference"], "notes": "Important religious account"},
-        "featured": true
-      }
-    ],
+    "notable": [],
     "database_path": "./sightings/"
   },
   "evidence": {
@@ -150,89 +97,30 @@
     "photographic": [],
     "video": [],
     "audio": [],
-    "documentary": [
-      {"id": "jinn-evidence-quran", "type": "religious text", "name": "Quranic References", "description": "Multiple Quran chapters mention jinn, including Surah Al-Jinn (Chapter 72)", "status": "religious text"},
-      {"id": "jinn-evidence-hadith", "type": "religious text", "name": "Hadith Literature", "description": "Prophetic traditions discussing jinn nature, behavior, and encounters", "status": "religious text"}
-    ]
+    "trace": []
   },
   "theories": {
-    "paranormal": [
-      {"name": "Literal existence", "description": "Jinn exist as described in Islamic tradition - beings of fire in a parallel dimension", "proponents": ["Islamic scholars", "Muslim believers"], "evidence_cited": ["Quranic revelation", "Hadith", "Continued encounters"]}
-    ],
-    "scientific": [
-      {"name": "Sleep paralysis", "description": "Many jinn encounter reports consistent with sleep paralysis symptoms", "proponents": ["Medical researchers"], "evidence_cited": ["Symptom overlap", "Nocturnal occurrence pattern"]},
-      {"name": "Mental health", "description": "Possession attributed to jinn may be psychiatric conditions", "proponents": ["Psychiatrists"], "evidence_cited": ["Dissociative disorders", "Psychosis symptoms"]}
-    ],
-    "skeptical": [
-      {"name": "Cultural construct", "description": "Jinn are cultural explanations for unexplained phenomena, mental illness, and natural events", "proponents": ["Secular scholars"], "evidence_cited": ["Pre-scientific worldview", "Similar beliefs in other cultures"]}
-    ]
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
   },
   "cultural": {
     "folklore": {
-      "traditions": ["Pre-Islamic Arabian religion", "Islamic theology", "One Thousand and One Nights", "Regional folklore variations"],
-      "stories": ["Solomon and the Jinn", "Aladdin's Lamp (distorted)", "Numerous folk tales"],
-      "beliefs": "Jinn can possess humans, cause illness, form relationships with humans. Protection through Quran recitation, certain prayers, and amulets."
-    },
-    "indigenous": {
-      "cultures": ["Arab", "Persian", "Turkish", "South Asian Muslim", "Southeast Asian Muslim", "African Muslim"],
-      "significance": "Central to Islamic worldview; mentioned in Quran which Muslims consider divine revelation",
-      "sensitivity_note": "Jinn belief is a matter of religious faith for Muslims. Approach with respect for religious traditions.",
-      "respect_guidelines": "Do not mock or dismiss as 'superstition.' Recognize this is Islamic religious belief, not just folklore."
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
     },
     "popular_culture": {
-      "literature": ["One Thousand and One Nights", "Numerous Arabic/Islamic literature", "Western fantasy incorporating djinn"],
-      "film_tv": ["Various Arabic horror films", "Western 'genie' films (usually distorted)", "I Dream of Jeannie (highly distorted)"],
-      "games": ["Dungeons & Dragons djinn", "Various video games"],
-      "other": ["Disney's Aladdin (distorted representation)", "Wishmaster films"]
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
     }
   },
   "research": {
-    "researchers": [
-      {"name": "Ibn Taymiyyah", "affiliation": "Islamic Scholar", "contribution": "Extensive writings on jinn in Islamic theology", "period": "1263-1328 CE"},
-      {"name": "Al-Shibli", "affiliation": "Islamic Scholar", "contribution": "Authored 'Akam al-Marjan' on jinn", "period": "Medieval period"},
-      {"name": "Robert Lebling", "affiliation": "Author", "contribution": "Legends of the Fire Spirits - comprehensive Western study", "period": "Modern"}
-    ],
-    "organizations": []
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
   },
-  "sources": [
-    {"id": "quran", "type": "religious text", "title": "The Quran", "notes": "Primary source; Surah Al-Jinn and other references"},
-    {"id": "lebling-2010", "type": "book", "title": "Legends of the Fire Spirits: Jinn and Genies from Arabia to Zanzibar", "authors": ["Robert Lebling"], "date": "2010", "isbn": "978-1845119935"},
-    {"id": "el-zein-2009", "type": "book", "title": "Islam, Arabs, and the Intelligent World of the Jinn", "authors": ["Amira El-Zein"], "publication": "Syracuse University Press", "date": "2009"}
-  ],
-
-  "types": {
-    "description": "Islamic tradition recognizes several categories of jinn:",
-    "categories": [
-      {
-        "name": "Ifrit (Afarit)",
-        "description": "Powerful and cunning jinn, often malevolent. Mentioned in Quran. Associated with fire and enormous strength.",
-        "characteristics": ["Extremely powerful", "Often malevolent", "Associated with fire", "Can be bound by magic"]
-      },
-      {
-        "name": "Marid",
-        "description": "Considered the most powerful class of jinn. Often depicted as water-associated. Proud and difficult to control.",
-        "characteristics": ["Most powerful type", "Associated with water/seas", "Extremely proud", "Rarely cooperate with humans"]
-      },
-      {
-        "name": "Ghul (Ghoul)",
-        "description": "Shape-shifting jinn that dwell in graveyards and deserts. Associated with eating flesh.",
-        "characteristics": ["Graveyard dwellers", "Shape-shifters", "Predatory", "Desert association"]
-      },
-      {
-        "name": "Shaitan (Shayatin)",
-        "description": "Evil jinn who follow Iblis (Satan). Tempters and corrupters of humans.",
-        "characteristics": ["Followers of Iblis", "Evil by nature", "Tempters", "Whisper evil suggestions"]
-      },
-      {
-        "name": "Jann",
-        "description": "The weakest and most common type. Generally less malevolent, sometimes helpful.",
-        "characteristics": ["Weakest type", "Can be benevolent", "Shape-shift into snakes", "More likely to interact peacefully"]
-      },
-      {
-        "name": "Si'la (Si'lat)",
-        "description": "Shape-shifting female jinn known for seducing men.",
-        "characteristics": ["Female", "Seductive", "Shape-shifters", "Treacherous"]
-      }
-    ]
-  }
+  "sources": []
 }
