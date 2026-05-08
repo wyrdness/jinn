@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/jinn",
     "maintainers": [
       {
@@ -16,72 +16,130 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "jinn",
     "name": "Jinn",
-    "aliases": [],
+    "aliases": [
+      { "name": "جن (jinn)", "language": "Arabic", "meaning": "'Hidden / concealed beings'" },
+      { "name": "Djinn", "language": "French / English transliteration" },
+      { "name": "Genie", "language": "English (via Latin genius)", "meaning": "Anglicization, popularized by 18th-century French translations of the One Thousand and One Nights" },
+      { "name": "Ifrit (عفريت)", "language": "Arabic", "meaning": "Class of powerful, often malevolent jinn" },
+      { "name": "Marid (مارد)", "language": "Arabic", "meaning": "Class of especially powerful jinn, often associated with the sea" },
+      { "name": "Ghul (غول)", "language": "Arabic", "meaning": "Cannibalistic, shape-shifting jinn of desolate places" },
+      { "name": "Si'lat (سعلاة)", "language": "Arabic" },
+      { "name": "Shaytan (شيطان)", "language": "Arabic", "meaning": "Satan; in Islamic theology the rebellious jinn Iblis and his progeny" },
+      { "name": "Pari (پری)", "language": "Persian", "region": "Iranian world", "meaning": "Beautiful winged spirit, often paralleled with jinn" }
+    ],
     "category": "ENTITY_SPIRIT",
-    "subcategory": "| Description | Power Level |",
+    "subcategory": "Islamic / pre-Islamic Arabian spirits",
     "tags": [
-      "folklore",
-      "mythology"
+      "islamic",
+      "arabian",
+      "spirit",
+      "shapeshifter",
+      "smokeless-fire",
+      "religious-tradition",
+      "middle-east",
+      "north-africa"
     ],
     "status": "documented",
     "description": {
-      "summary": "Jinn (Arabic: جن, also romanized as Djinn) are supernatural beings in pre-Islamic Arabian religious traditions and Islamic theology.",
-      "full": "Jinn (Arabic: جن, also romanized as Djinn) are supernatural beings in pre-Islamic Arabian religious traditions and Islamic theology. According to Islamic belief, God created three sapient beings: Unlike angels who are bound to obey God, jinn possess free will and can choose between good and evil. They live in a parallel world normally invisible to humans, can take various forms, and have their own societies, religions, and hierarchies. The Quran contains an entire chapter dedicated to them (Surah Al-Jinn, Chapter 72), and belief in jinn remains strong across the Muslim world today."
+      "summary": "The jinn are sapient, invisible beings of pre-Islamic Arabian religion and Islamic theology, said to be created by God from smokeless fire. The Quran devotes Surah 72 (Al-Jinn) to them; belief in jinn remains widespread across the Muslim world.",
+      "full": "Jinn (Arabic: جِنّ; singular jinnī, جنّي) are a category of sapient supernatural beings central to pre-Islamic Arabian religion and to Islamic theology. The Quran teaches that God created humans from clay and jinn from a 'smokeless fire' or 'scorching wind' (Q 15:27, 55:15). Unlike angels, jinn possess free will and can be Muslim, Jewish, Christian, or unbelieving. Surah 72 of the Quran (سورة الجن, Al-Jinn) records a group of jinn overhearing the Prophet Muhammad's recitation and accepting Islam. Jinn live in a parallel world ordinarily concealed from the senses (the root j-n-n meaning 'to hide / cover'), have their own societies and tribes, can take many forms (especially serpents, dogs, and humans), can possess places and people, and can interbreed with humans in some traditional accounts. The Quran identifies Iblīs (the chief shaytān, 'devil') as a jinn who refused God's command to bow before Adam (Q 18:50). Sub-classes recognized in classical Arabic literature include the marid, ifrit, ghul, si'lat, and shaytan. The figure of the genie in a lamp comes via Antoine Galland's early-18th-century French translation of the One Thousand and One Nights and the embedded tale of 'Aladdin' (added to the Galland edition c. 1710). Survey data (Pew Research Center, 2012) shows that belief in jinn remains majority-held across many Muslim-majority societies — Morocco 86 %, Bangladesh 84 %, Pakistan 77 %, Afghanistan 70 %. Within contemporary Muslim communities, jinn are commonly invoked in explanations of mental illness, sleep paralysis, and uncanny events, and ruqyah (Islamic exorcism using Quranic recitation) is widely practiced."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Arabic root ج-ن-ن (j-n-n), 'to hide, to conceal, to cover'",
+      "meaning": "'Hidden ones' / 'concealed beings'",
+      "first_use": "Pre-Islamic Arabian religion; explicit Quranic occurrences (7th century CE)"
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "ENTITY_SPIRIT",
-      "type": "| Description | Power Level |",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Sapient supernatural being",
+      "subtype": "Smokeless-fire created spirit",
+      "variant": "Islamic / pre-Islamic Arabian"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "demon", "name": "Demon", "relationship": "similar", "description": "Comparable supernatural-being category in Christian and Jewish traditions" },
+      { "id": "shaytan", "name": "Shaytan / Iblis", "relationship": "subset", "description": "Rebellious jinn class in Islamic theology" },
+      { "id": "angel", "name": "Angel (malak)", "relationship": "counterpart", "description": "In Islamic cosmology, jinn (free-willed, smokeless fire) parallel angels (obedient, light)" },
+      { "id": "pari", "name": "Pari", "relationship": "related", "description": "Persian winged spirits often paralleled with jinn" },
+      { "id": "ghoul", "name": "Ghoul (ghul)", "relationship": "subset", "description": "Cannibalistic, shapeshifting class of jinn of desolate places" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "coloration": ["invisible by default", "smoky", "fiery"],
+      "features": [
+        { "feature": "Created from smokeless fire", "description": "Quran 15:27 and 55:15 describe jinn as created from 'smokeless fire' (mārij min nār)", "frequency": "always" },
+        { "feature": "Shapeshifting", "description": "Jinn assume many forms; serpents, dogs, cats, and human appearance are common in classical sources", "frequency": "always" },
+        { "feature": "Invisibility by default", "description": "Jinn are normally imperceptible to humans; the root j-n-n means 'hidden'", "frequency": "always" },
+        { "feature": "Capable of flight / rapid travel", "description": "Classical sources describe jinn as capable of crossing great distances at speed", "frequency": "common" }
+      ],
+      "morphology": "Bodies of subtle, fiery substance; not bound to fixed material form. Classical commentators describe jinn as occupying a parallel realm intersecting our own."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Shapeshifting", "description": "Can assume animal or human forms", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Possession of humans", "description": "Can enter human bodies, causing illness, madness, or speaking through the possessed", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Possession of places", "description": "Can inhabit ruins, deserts, bathhouses, latrines, and trees; specific places are warded against jinn", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Magical service", "description": "When bound (notably by the Prophet Sulaymān / Solomon), jinn can build, transport, and serve human masters; central motif of the One Thousand and One Nights", "frequency": "occasional", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "variable",
+      "disposition": "variable",
+      "social_structure": "variable",
+      "habitat_preference": ["deserts", "ruins", "abandoned places", "bathhouses", "latrines", "wells", "graveyards", "deserted oases"],
+      "diet": "Classical sources describe jinn as feeding on bones, dung, and the residue of human meals; some are said to consume the qareen / spiritual companion of humans",
+      "patterns": [
+        "Often most active at night and at noon",
+        "Can be repelled by Quranic recitation, particularly Ayat al-Kursi (Q 2:255), the Mu'awwidhatan (Q 113–114), and Surah Al-Jinn",
+        "Bound or commanded by sealed talismans in Solomonic tradition"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Conceptually present throughout the Islamic world, with strong continuity with pre-Islamic Arabian religion and parallels in Persian, Turkic, Berber, Swahili, and Malay cultures.",
+      "continents": ["Asia", "Africa", "Europe"],
+      "countries": ["Saudi Arabia", "Egypt", "Morocco", "Iran", "Pakistan", "Bangladesh", "Afghanistan", "Indonesia", "Malaysia", "Turkey", "Iraq", "Syria"],
+      "regions": ["Arabian Peninsula", "Maghreb", "Mashriq", "Iranian world", "South Asia", "Southeast Asia", "Sahel"]
     },
     "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "Pre-Islamic Arabia (pre-7th century CE)",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Pre-Islamic Arabian poetry; later codified in the Quran (7th century CE)"
+      },
+      "peak_activity_periods": [
+        { "period": "7th century CE", "description": "Quranic codification of jinn doctrine" },
+        { "period": "9th–14th centuries CE", "description": "Classical Islamic demonology elaborated by al-Jahiz, al-Mas'udi, al-Damiri, and others" },
+        { "period": "18th century", "description": "European reception via Galland's Mille et Une Nuits (1704–1717), creating the 'genie' figure" }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Pre-Islamic Arabian religion, in which the jinn were widely worshipped or propitiated alongside other Arabian deities. The Quran retained the category but reformed it within strict monotheism.",
+      "earliest_accounts": "Pre-Islamic Arabic poetry references jinn as inspirers of poets; the Quran (7th century CE) gives the most influential systematic treatment, especially Surah 72 (Al-Jinn).",
+      "folklore_connections": "Classical Islamic demonology drew on pre-Islamic Arabian, Babylonian, Persian, Hellenistic, and (less directly) Jewish-Christian materials, integrating them into a coherent jinn taxonomy."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "0610-01-01", "event": "Beginning of the Quranic revelation; jinn doctrine begins to take Islamic shape", "significance": "Foundational scriptural framing", "source": "Quran (traditional Islamic chronology)" },
+      { "date": "0860-01-01", "event": "Al-Jahiz writes 'Kitab al-Hayawan' (Book of Animals), discussing jinn alongside natural creatures", "significance": "Early classical-Arabic systematic discussion", "source": "Al-Jahiz, Kitab al-Hayawan (c. 9th century)" },
+      { "date": "1372-01-01", "event": "Al-Damiri's 'Hayat al-Hayawan' (Life of Animals) catalogues jinn taxonomy in detail", "significance": "Major medieval Islamic encyclopedia of natural and supernatural beings", "source": "Muhammad ibn Musa al-Damiri (c. 1372)" },
+      { "date": "1704-01-01", "event": "Antoine Galland begins publishing 'Les Mille et Une Nuits' in French (1704–1717)", "significance": "Introduces 'génie' / genie to European imagination, including the embedded Aladdin tale", "source": "Galland, A. (1704–1717), Les Mille et Une Nuits" },
+      { "date": "2012-08-09", "event": "Pew Research Center publishes 'The World's Muslims: Unity and Diversity', documenting that majorities in many Muslim-majority countries believe in jinn", "significance": "First large-scale comparative survey of contemporary jinn belief", "source": "Pew Research Center (2012)" }
+    ],
+    "modern_era": "Belief in jinn remains a living religious-folk tradition across the Muslim world. Ruqyah (Islamic exorcism) and amulet-based protection are widely practiced; the 'genie' has become a global pop-culture archetype via Disney's 'Aladdin' (1992) and decades of Western fantasy. Increasing numbers of horror films since the early 2000s (including 'Under the Shadow', 2016, dir. Babak Anvari) draw directly on jinn beliefs."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -92,35 +150,137 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "jinn-evidence-quran-72",
+        "type": "scripture",
+        "name": "Surah Al-Jinn (Quran 72)",
+        "description": "Quranic chapter dedicated to a group of jinn who heard the recitation of the Quran and accepted Islam.",
+        "status": "verified",
+        "analysis": "Foundational Islamic scriptural source on jinn doctrine.",
+        "source": "Quran 72"
+      },
+      {
+        "id": "jinn-evidence-pew-2012",
+        "type": "survey research",
+        "name": "Pew Research Center, 'The World's Muslims: Unity and Diversity' (2012)",
+        "date": "2012",
+        "description": "Large multi-country Pew survey reporting majority belief in jinn across many Muslim-majority countries (Morocco 86%, Bangladesh 84%, Pakistan 77%, Afghanistan 70%).",
+        "status": "verified",
+        "analysis": "Provides quantitative anchor for contemporary jinn belief.",
+        "source": "Pew Research Center (2012)"
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "paranormal": [
+      {
+        "name": "Islamic theological framing",
+        "description": "Jinn are real created beings, parallel to humans and angels, with free will and moral accountability. Some are Muslim and benevolent; others (the shayatin / devils) are rebellious. Iblis is a jinn who refused God's command to bow to Adam.",
+        "proponents": ["Classical Islamic theology (kalam)", "Modern mainstream Sunni and Shia scholars"],
+        "evidence_cited": ["Quran (especially Q 15, 55, 72)", "Hadith corpus", "Centuries of classical scholarship"]
+      },
+      {
+        "name": "Folk-religious supernatural agents",
+        "description": "In folk Islamic and pre-Islamic Arabian practice, jinn are local spirits attached to particular places (ruins, deserts, bathhouses, wells), capable of helping or harming humans, and propitiated by ritual offerings, names, and Quranic recitation.",
+        "proponents": ["Folk Islamic tradition across the Muslim world"],
+        "evidence_cited": ["Ethnographic documentation", "Persistent local jinn-related taboos and rituals"]
+      }
+    ],
+    "scientific": [
+      {
+        "name": "Sleep paralysis and parasomnia",
+        "description": "Many contemporary 'jinn attack' experiences (chest pressure, paralysis, sense of presence) are best explained by sleep paralysis and related parasomnias, which are universally distributed but interpreted through local cultural frameworks.",
+        "proponents": ["Cross-cultural sleep researchers"],
+        "evidence_cited": ["Cross-cultural studies of sleep-paralysis prevalence", "Convergent symptomology with non-Muslim cultural framings (Old Hag, kanashibari, etc.)"]
+      },
+      {
+        "name": "Cultural attribution of mental illness",
+        "description": "Some psychiatric conditions (psychosis, dissociative disorders) are commonly explained as jinn possession in many Muslim-majority societies; clinical literature explores the interaction of psychiatric care with traditional ruqyah practice.",
+        "proponents": ["Transcultural psychiatry researchers"],
+        "evidence_cited": ["Clinical case studies in Saudi Arabia, Morocco, Pakistan", "Ethnographic studies of ruqyah practice"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Mythological / religious construct",
+        "description": "Skeptics treat jinn as a religious-folkloric category without independent extramental existence, useful for understanding cultural psychology but not requiring an ontological commitment.",
+        "proponents": ["Secular religious-studies scholars"],
+        "evidence_cited": ["Absence of empirical verification", "Convergence of jinn-style beliefs with comparable supernatural-agent categories in unrelated cultures"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Pre-Islamic Arabian religion",
+        "Sunni and Shia Islamic theology",
+        "Folk Islamic ritual practice (ruqyah, amulets)",
+        "Persian / Turkic / Berber / Swahili / Malay regional jinn lore"
+      ],
+      "stories": [
+        "Quranic narrative of jinn embracing Islam (Surah 72)",
+        "Iblis refusing to bow to Adam (Q 18:50)",
+        "Solomon (Sulaymān) commanding the jinn",
+        "One Thousand and One Nights (Aladdin and the lamp; The Fisherman and the Jinni)",
+        "Regional folk-stories of marriage between humans and jinn"
+      ],
+      "beliefs": "Jinn are accepted as real beings in mainstream Islamic theology and remain a living folk-religious presence across the Muslim world."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
-      "games": [],
-      "other": []
+      "literature": [
+        "One Thousand and One Nights (Alf Layla wa-Layla)",
+        "Galland, A. — Les Mille et Une Nuits (1704–1717)",
+        "El-Shamy, H. — Folktales of Egypt (1980)",
+        "Lebling, R. — Legends of the Fire Spirits: Jinn and Genies from Arabia to Zanzibar (2010)",
+        "Ahmed, A. — The Throne of the Crescent Moon (2012)",
+        "Chakraborty, S. A. — The City of Brass (2017)"
+      ],
+      "film_tv": [
+        "Aladdin — Disney animated film (1992)",
+        "Under the Shadow — Babak Anvari (2016)",
+        "Djinn — Tobe Hooper (2013)",
+        "The Djinn — David Charbonier and Justin Powell (2021)"
+      ],
+      "games": [
+        "Magic: The Gathering — 'Djinn' creature type",
+        "Dungeons & Dragons — djinni / efreeti",
+        "Sonic and the Secret Rings — Erazor Djinn"
+      ],
+      "music": [],
+      "other": [
+        "Annual Ramadan television series featuring jinn antagonists in the Arab world",
+        "Widespread amulet (taʿwīdh) traditions across the Muslim world"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
+    "researchers": [
+      { "name": "Al-Jahiz (الجاحظ)", "affiliation": "Abbasid Baghdad", "contribution": "Kitab al-Hayawan; early classical Arabic discussion of jinn", "period": "9th century" },
+      { "name": "Al-Damiri", "affiliation": "Mamluk Egypt", "contribution": "Hayat al-Hayawan al-Kubra; comprehensive medieval encyclopedia of animals and jinn", "period": "14th century" },
+      { "name": "Robert Lebling", "affiliation": "Independent scholar", "contribution": "Author of 'Legends of the Fire Spirits' (2010), a comprehensive English-language survey of jinn traditions", "period": "2000s–present" },
+      { "name": "Amira El-Zein", "affiliation": "Georgetown University in Qatar", "contribution": "Author of 'Islam, Arabs, and the Intelligent World of the Jinn' (2009)", "period": "2000s–present" }
+    ],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "Active scholarship in religious studies, transcultural psychiatry, anthropology of Islam, and Middle Eastern literary studies; significant Pew survey data on contemporary belief."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "wikipedia-jinn", "type": "website", "title": "Jinn", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Jinn", "accessed": "2026-05-07" },
+    { "id": "quran", "type": "book", "title": "The Quran", "notes": "Especially Q 15:27, 55:15, 72 (Surah Al-Jinn), 18:50" },
+    { "id": "lebling-2010", "type": "book", "title": "Legends of the Fire Spirits: Jinn and Genies from Arabia to Zanzibar", "authors": ["Robert Lebling"], "publication": "I. B. Tauris", "date": "2010" },
+    { "id": "el-zein-2009", "type": "book", "title": "Islam, Arabs, and the Intelligent World of the Jinn", "authors": ["Amira El-Zein"], "publication": "Syracuse University Press", "date": "2009" },
+    { "id": "pew-2012", "type": "paper", "title": "The World's Muslims: Unity and Diversity", "publication": "Pew Research Center", "date": "2012", "url": "https://www.pewresearch.org/religion/2012/08/09/the-worlds-muslims-unity-and-diversity-executive-summary/", "accessed": "2026-05-07" },
+    { "id": "galland-1704", "type": "book", "title": "Les Mille et Une Nuits", "authors": ["Antoine Galland (translator)"], "publication": "Paris", "date": "1704–1717" }
+  ]
 }
